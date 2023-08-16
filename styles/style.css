@@ -67,4 +67,17 @@ img {
     width: 150px;
 }
 
+@media only screen and (max-width: 768px) {
+  img {
+    width: 50px;
+  }
 
+  table {
+    min-width: 200px;
+  }
+
+  table th,
+  table td {
+    padding: 12px 0px;
+  }
+}
